@@ -89,6 +89,26 @@
       animation: fadeIn 3s ease-out;
     }
 
+    /* Back Button */
+    .back-button {
+      margin-top: 30px;
+      padding: 10px 25px;
+      font-size: 1rem;
+      background-color: #00ffff;
+      border: none;
+      border-radius: 5px;
+      color: #000;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    }
+
+    .back-button:hover {
+      background-color: #7fffd4;
+      box-shadow: 0 0 20px #7fffd4, 0 0 40px #7fffd4;
+      transform: scale(1.05);
+    }
+
     @keyframes fadeIn {
       from {opacity: 0; transform: translateY(-20px);}
       to {opacity: 1; transform: translateY(0);}
@@ -116,6 +136,7 @@
 <div class="content" id="content">
   <h1 id="title">Coming Soon</h1>
   <div class="countdown" id="countdown"></div>
+  <button class="back-button" onclick="location.href='./index.html'">⬅️ Back</button>
 </div>
 
 <script>
