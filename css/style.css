@@ -5393,7 +5393,7 @@ textarea.w-input, textarea.w-select {
   border-bottom-right-radius: var(--ai-gen-82921b10-4b39-48f0-b346-808cf4903d29-1744022076526---button--button-radius);
   white-space: nowrap;
   word-break: keep-all;
-  color: color-mix(in srgb, currentColor 75%, transparent);
+  color: color-mix(in srgb, rgb(0, 0, 0) 100%, transparent);
   flex: none;
   justify-content: flex-start;
   align-items: center;
